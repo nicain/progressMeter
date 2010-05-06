@@ -82,7 +82,6 @@ class ProgressMeter(object):
                 total += rate
             rate = total / cnt
         self.rate_current = rate
-        # self.rate_current = now - self.timestamp
         self.last_update = now
         # Device Total by meter division
         value = int(self.count / self.meter_division)
